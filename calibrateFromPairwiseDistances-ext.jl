@@ -17,8 +17,20 @@ end
 
 function from PhyloNetworks package: https://github.com/JuliaPhylo/PhyloNetworks.jl
 Originally published: https://doi.org/10.1093/molbev/msx235
+Copyright (c) 2014-2018: Claudia Solis-Lemus and Cecile Ane.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+############################
 Customized/extended to add also cost for changing the internal edge length from SNaQ, 
 not only minimizing difference between patristic distances and distance matrix.
+The calibrateFromPairwiseDistances-ext.jl script is licensed under the MIT "Expat" License
+Copyright (c) 2024: Ivan Rurik
+############################
 
 Calibrate the network to match (as best as possible) input
 pairwise distances between taxa, such as observed from sequence data.
